@@ -43,14 +43,6 @@ box.addEventListener('click',function(){
     stopwatch();
     click = 1;
     clicks.innerHTML = click;
-    
-    /*
-    About the bug - 
-
-    the bug was about the btn which when clicked repeatedly creates a issue and the time stuutered a lot so the display of the btn was set to none after one click and after the timer ends the it was again made visible
-    */
-
-    // bug which is fixed
 
     box.replaceWith(clickElement);
 
